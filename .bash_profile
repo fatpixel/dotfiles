@@ -57,6 +57,7 @@ complete -W "NSGlobalDomain" defaults;
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
+export HOMEBREW_CASK_OPTS='--appdir=/Applications '
 
 # Load NVM (node version manager)
 export NVM_DIR=~/.nvm
@@ -64,4 +65,7 @@ export NVM_DIR=~/.nvm
 
 # Load RVM (ruby version manager)
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+ulimit -n 10000
+
 
