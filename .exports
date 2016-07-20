@@ -26,4 +26,10 @@ export MANPAGER='less -X';
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
 
+export TARGET_API="https://dmoz-api.mediavalet.net/";
+export LOGIN_URL="https://dmoz-api.mediavalet.net/authorization/token";
+export TARGET_IDENTITY_PROVIDER_BASE="https://identity-integration.mediavalet.net/";
+export NODE_LOGGING_LEVEL="info";
+export HOST_NAME="blackcomb.mediavalet.net";
+export DEV="true";
 
