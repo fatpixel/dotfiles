@@ -125,11 +125,13 @@
 
 	# Detect copies as well as renames
 	renames = copies
+	tool = Kaleidoscope
 
 [merge]
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+	tool = Kaleidoscope
 
 [push]
 
